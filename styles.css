@@ -1,0 +1,35 @@
+html{
+	font-family: 'Rubik',sans-serif;
+	scroll-behavior: smooth;
+}
+li{
+	list-style-type: none;
+} 
+a{
+	text-decoration: none;
+}
+button{
+	border: none;
+	background: none;
+}
+img,ion-icon,span,button{
+	display: block;
+}
+.container{
+	position: relative;
+	max-width: 1440px;
+	margin: auto;
+	background: white;
+	overflow: hidden;
+}
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	padding: 20px 30px 10px 10px;
+	background-color: red;
+	border-bottom: 1px solid hsla(0, 0%, 0%, 0.05);
+	box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.05);
+}
